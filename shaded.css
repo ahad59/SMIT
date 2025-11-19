@@ -1,0 +1,45 @@
+table {
+    width: 800px;
+    height: 50px;
+}
+.one {
+            background-color: rgb(0, 0, 0);
+            color: white;
+       
+}
+.two {
+    background-color: rgb(16,12,8);
+    color: white;
+}
+.three {
+    background-color: rgb(27,27,27);
+    color: white;
+}
+.four {
+    background-color: rgb(31,31,31);
+    color: white;
+}
+.five {
+    background-color: rgb(45,45,45);
+    color: white;
+}
+.six {
+    background-color: rgb(52,52,52);
+    color: white;
+}
+.seven {
+    background-color: rgb(53,56,57);
+    color: white;
+}
+.eight {
+    background-color: rgb(42,52,57);
+    color: white;
+}
+.nine {
+    background-color: rgb(54,69,79);
+    color: white;
+}
+.ten {
+    background-color: rgb(65,74,76);
+    color: white;
+}
