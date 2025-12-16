@@ -1,0 +1,45 @@
+div{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.box1{
+    background-color: blue;
+    font-weight: bold;
+    color: crimson;
+    text-align: center;
+    animation: box-collision1 ease-in-out 2s infinite;
+}
+
+.box2{
+    background-color: red;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    top: 0;
+    float: right;
+    animation: box-collision2 ease-in-out 2s infinite;
+}
+
+@keyframes box-collision1 {
+    from {
+            left: 0;
+    }
+    to {
+        left: calc(50% - 300px);
+    }
+    
+}
+
+@keyframes box-collision2 {
+    from {
+            right: 0;
+    }
+    to {
+        right: calc(50% - 300px);
+    }
+    
+}
